@@ -15,6 +15,7 @@ def save_posts(post):
     with open("post.json","w") as file:
         json.dump(post,file,indent=4)
         
+        
 
 post=load_posts()
 
