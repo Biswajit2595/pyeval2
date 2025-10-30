@@ -16,6 +16,7 @@ def save_posts(post):
         json.dump(post,file,indent=4)
         
         
+        
 
 post=load_posts()
 
